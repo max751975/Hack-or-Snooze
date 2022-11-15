@@ -3,6 +3,9 @@
 body {
   font-family: Arimo, sans-serif;
   margin: 8px 7.5vw;
+  
+  background: linear-gradient(90deg, rgba(37, 206, 209, 0.712), rgba(2, 117, 117, 0.705));
+  
 }
 
 h1 {
@@ -37,7 +40,13 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-self: center;
-  background-color: #f6f6ef;
+  background-color: rgba(169, 241, 191, 0.705);
+ 
+}
+.stories-container {
+  border: 2px solid grey;
+  border-radius: 0 0 5px 5px;
+  
 }
 
 .hidden {

@@ -22,7 +22,7 @@
 .story-link {
   color: black;
   font-size: 0.85rem;
-  font-weight: normal;
+  font-weight:bolder;
   margin: 18px 0;
 }
 
@@ -43,10 +43,14 @@
 }
 
 .heart:hover {
-  color: pink
+  color: red
+}
+
+.heart .fas {
+ color: pink;
 }
 
 .stories-list > li:hover {
-  background-color: rgb(223, 222, 222);
+  background-color: rgba(169, 241, 191, 0.89);
   padding: 0 2px;
 }
